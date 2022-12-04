@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>JB Developer</title>
+</head>
+
+<body>
+    <!-- SESSÃO I N I C I O -->
+    <section id="inicio">
+        <div class="conteudo">
+            <cabeçalho>
+                <div class="conteudo-cabeçalho">
+                    <h1>/JBM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobre mim" onclick="seleccionar(this)">SOBRE MIM</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVIÇOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFÓLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTATO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icone do menu responsivel -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- classe redes sociais -->
+                    <div class="redes">
+                    <!-- <a href="#"><i class="fa-brands fa-youtube"></i></a> -->
+                        <a href="https://www.instagram.com/jbmdeveloper/"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="https://github.com/jbmdeveloper"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </cabeçalho>
+            <div class="presentacion">
+                <p class="bienvenida">Bem vindo</p>
+                <h2>Sou <span>José Braga</span>, Desenvolvedor</h2>
+                <p class="descripcion">Acadêmico do curso Sitema da Infomação e aluno do Técnicas de Invasão</p>
+                <a href="#portfolio">Portfólio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I M -->
+    <section id="im">
+        <div class="contenedor-foto">
+            <img src="img\sobre mim.jpg" alt="">
+        </div>
+        <div class="im">
+            <p class="titulo-seccion">Sobre mim</p>
+            <h2>Olá, Sou <span>José Braga</span> </h2>
+            <h3>Desenvolvedor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+           <!-- esta tag será habilitada quando o curriculo estiver pronto
+            <a href="#"> Baixar currículo</a> -->
+            <a href="https://www.instagram.com/jbmdeveloper/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/jbmdeveloper"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MEUS SERVIÇOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Web Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Programador PYTHON</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento CEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Hospedagem de Sites</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Design Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Developer</li>
+                    <li>Hacking</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Dados</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MEUS PROJETOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descrição do projeto</h4>
+                    <p>Web Design/p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">ENTRE EM CONTATOS CONOSCO AGORA MESMO!</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nome Completo *" class="input-mitad">
+                    <input type="email" placeholder="E-mail" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Assunto..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensagem" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>José Braga Malveira- 2022</p>
+        <div class="redes">
+        <!-- <a href="#"><i class="fa-brands fa-youtube"></i></a> -->
+            <a href="https://www.instagram.com/jbmdeveloper/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/jbmdeveloper"><i class="fa-brands fa-github"></i></a>
+            
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
