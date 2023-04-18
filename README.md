@@ -1,5 +1,5 @@
 # Portfólio JBM
-Esse projeto é um site pessoal criado por José Braga, desenvolvedor. O site tem como objetivo apresentar seus serviços e portfólio para clientes potenciais.
+Esse projeto é um site pessoal criado por José Braga, desenvolvedor. O site tem como objetivo apresentar seus serviços e portfólio para potenciais clientes.
 
 ## Tecnologias utilizadas
 - HTML
