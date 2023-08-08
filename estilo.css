@@ -42,6 +42,12 @@ html {
     color: #ff5080;
 }
 
+#inicio .conteudo cabeçalho .conteudo-cabeçalho img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.7rem
+}
+
 #inicio .conteudo cabeçalho .conteudo-cabeçalho nav ul {
     list-style: none;
     display: flex;
@@ -520,18 +526,16 @@ html {
 /* *********************/
 
 footer {
-    background-color: #000;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 30px 0;
 }
 
 footer a {
     text-decoration: none;
-    color: #fff;
-    display: inline-block;
+    color: #000000;
     margin: 5px;
-    font-size: 26px;
+    font-size: 16px;
 }
 /* *********************/
 /* sessão R E S P O N S I V E */
@@ -621,4 +625,22 @@ footer a {
         width: 100%;
         margin-bottom: 15px;
     }
+}
+
+#redes > a{
+    border: solid 2px #3200bd;
+    padding: 20px 30px;
+    display: -webkit-inline-box;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    background-color: #1d1d1d;
+    color: #ff5080;
+}
+
+#redes > h3{
+    background-color: #000000;
+    color: #ff5080;
+    padding: 20px 30px;
 }
